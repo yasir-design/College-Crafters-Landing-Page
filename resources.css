@@ -1,0 +1,388 @@
+/* DEVELOPER: Yasir Iqbal, IS117-104, Spring 2022 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "Product Sans";
+    margin: 0 auto;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/*Contact Us Button*/
+
+.btn-sm {
+    background: #006878;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: none;
+    align-items: center;
+    font-family: "Product Sans Medium";
+    font-size: 1.125rem;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px 25px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    touch-action: manipulation;
+    will-change: transform;
+
+}
+.btn-sm:disabled {
+    pointer-events: none;
+}
+.btn-sm:hover {
+    box-shadow: rgba(95, 99, 104, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    color: white;
+}
+.btn-sm:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+/*Navigation Bar*/
+
+
+.nav-container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 200px;
+
+}
+
+
+.navbar {
+    padding: 0 0 0.1rem;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.btn-sm:disabled {
+    pointer-events: none;
+}
+
+.nav-link:hover {
+    color: #5F6368;
+    text-decoration: solid underline #FDC281 4px;
+    text-underline-offset: 13px;
+}
+
+
+.nav-link:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.nav-link {
+    line-height: 30px;
+    color: #5F6368;
+    font-family: "Product Sans Medium";
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+}
+
+/*.nav-item .dropdown {
+    margin-bottom: 20px;
+}*/
+
+#navbarDropdownMenuLink {
+    color: #5F6368;
+}
+.nav-item .dropdown-menu {
+    width: 154px;
+    height: 132px;
+    border-radius: 10px;
+    margin-top: 8px;
+    /*margin-bottom: 20px;*/  
+}
+.dropdown-item {
+    line-height: 30px;
+    width: 100%;
+    color: #5F6368;
+    font-family: "Product Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-item:active {
+    background-color: #006878;
+}
+
+.nav-container .row {
+    position: relative;
+    display: flex;
+    padding-top: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+
+
+/*Team Cards*/
+
+
+h3 {
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #424242;
+}
+
+.testing-container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    
+}
+.testing-container .row {
+    
+    padding-left: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 13%;
+    
+}
+.testing-container h3 {
+
+    margin-bottom: 44px;
+    border-top: #006878 4px solid;
+    padding-top: 44px;
+}
+
+.card-body p {
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.005em;
+    color: #3C4043;
+    height: 50px;
+    width: 160px;
+    margin-top: 8px;
+
+}
+
+.card {
+    width: 560px;
+    height: 210px;
+    background: #FFFFFF;
+    border: 1px solid #DADCE0;
+    box-sizing: border-box;
+    border-radius: 25px;
+    align-items: center;
+    padding-top: 20px;
+    margin: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    transition: all 0.3s ease-out;
+    box-shadow: 0px 2px 6px 2px #DADCE0, 0px 1px 2px #DADCE0;
+    background-color: white;
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    margin-top: 8px;
+    width:  80px;
+    height: 80px;
+    object-fit: contain;
+
+}
+
+
+
+/*Footer*/
+
+.footer-container {
+    width: 100%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    padding-bottom: 1.5%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-content h4 {
+    width: 200px;
+    height: 30px;
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #006878;
+    margin-top: 68px;
+    
+}
+
+.footer-content small {
+
+    width: 506px;
+    height: 224px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0028em;
+    color: #5F6368;
+    margin-top: 35px;
+    margin-bottom: 58px;
+    
+}
+
+.f-content p {
+    width: 168px;
+    height: 30px;
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+    margin-top: 68px;
+    
+}
+
+.f-content small {
+    width: 180px;
+    height: 64px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+    
+
+}
+
+.f-content2 p {
+    width: 168px;
+    height: 30px;
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+    margin-top: 68px;
+     
+}
+
+.f-content2 small {
+    width: 71px;
+    height: 96px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+
+}
+
+.footer2-container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 6%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.policy {
+    width: 150px;
+    height: 17px;
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+}
+
+.copyright {
+    width: 180px;
+    height: 17px;
+    font-family: 'Product Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #5F6368;
+}
