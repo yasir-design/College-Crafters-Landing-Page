@@ -1,1 +1,1 @@
-# LandingPage_CollegeCrafters
+# Landing Page for College Crafters
